@@ -14,6 +14,8 @@ from langchain.prompts import PromptTemplate
 from dotenv import load_dotenv
 from PIL import Image
 
+load_dotenv()
+
 def get_pdf_text(pdf_docs):
     text=""
     for pdf in pdf_docs:
